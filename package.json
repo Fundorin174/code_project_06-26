@@ -4,7 +4,7 @@
   "description": "Наш тестовый проект",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "homepage": "https://github.com/Fundorin174/code_project_06-26#readme",
   "dependencies": {
     "lodash-es": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1"
   }
 }
